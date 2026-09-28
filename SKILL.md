@@ -1,5 +1,5 @@
 ---
-name: ACS_Style
+name: acs-style
 description: >
   Revise, draft, or structure chemistry manuscript text to match American
   Chemical Society (ACS) journal conventions — formal, mechanism-forward
