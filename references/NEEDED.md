@@ -3,18 +3,17 @@
 ## Supplied and incorporated
 - ACS Style Guide (3rd ed.) chapters 9, 10, 15, 16, 17 → `style-guide.md`
 - 3 published ACS papers (tone source) → excerpts + patterns in `tone-examples.md`
-- Same 2 JACS papers' reference lists → real citation examples in `citation-format.md`
+- `american-chemical-society.csl` (Zotero/CSL "ACS Guide 2026 revision",
+  numeric in-text style) → authoritative reference-list rules for every
+  type (journal article, book, thesis, patent, chapter/conference paper,
+  webpage, and a generic fallback) in `citation-format.md`, cross-checked
+  against the two JACS papers' real reference lists (exact match).
 - Same 3 papers' section order → `document-structure.md`
 
-## Still open (each file's own "Still needed" section has detail)
-- `citation-format.md`: no example yet of a patent, thesis, conference
-  proceeding, preprint, dataset, or website citation — only journal
-  article and one book/software entry are attested.
+## Still open
 - `document-structure.md`: section order is JACS-specific; a different
   target ACS journal (Org. Lett., Anal. Chem., ACS Nano, etc.) may differ.
-- The official ACS Style Quick Guide page
-  (`pubs.acs.org/books/book/4293/chapter/244189111/ACS-Style-Quick-Guide`)
-  could not be fetched — `pubs.acs.org` is blocked by this environment's
-  network policy. If you can allow that domain in the environment's network
-  settings, or paste the page's text, it can replace the empirically
-  derived citation rules with the official ones (they should mostly agree).
+  Paste that journal's own Instructions for Authors if this matters for the
+  manuscript at hand.
+- Citation formatting is now resolved for essentially every source type via
+  the CSL file — no open gap there.

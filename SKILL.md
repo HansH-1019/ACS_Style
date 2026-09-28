@@ -44,13 +44,22 @@ working memory from a summary.
 - `references/document-structure.md` — observed ACS article section order
   and figure/table/scheme numbering conventions.
 - `references/citation-format.md` — the numbered/superscript in-text
-  citation system and reference-list entry format, with real examples.
+  citation system and reference-list entry format for every source type
+  (journal article, book, thesis, patent, chapter/conference paper,
+  website, dataset/fallback), translated from `american-chemical-society.csl`
+  (the authoritative CSL spec) and cross-checked against two real JACS
+  reference lists.
+- `references/american-chemical-society.csl` — the underlying CSL file
+  itself. `citation-format.md` is the human-readable translation of it;
+  consult the CSL directly for a field this skill hasn't needed yet, or if
+  a citation-management tool needs the machine-readable style.
 
-All four files are living documents seeded from a limited set of sources
-(one style-guide summary, three papers). If a rule is genuinely missing —
-e.g., no example of a patent or thesis citation — say so rather than
-inventing a plausible-looking format, and ask the user for one more source
-example rather than guessing.
+These files are living documents seeded from a limited set of sources (one
+style-guide summary, three papers, one CSL file). If a rule is genuinely
+missing — e.g., the target journal's specific section order differs from
+the JACS-derived default in `document-structure.md` — say so rather than
+inventing a plausible-looking rule, and ask the user for one more source
+rather than guessing.
 
 ## Workflow
 
