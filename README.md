@@ -23,24 +23,6 @@ See [`SKILL.md`](./SKILL.md) for the full instructions Claude follows.
   book, thesis, patent, chapter/conference paper, website, dataset),
   per the official ACS numeric CSL style.
 
-## Reference material
-
-`references/` holds the source material the skill draws on:
-
-| File | Source | Covers |
-| --- | --- | --- |
-| `style-guide.md` | *The ACS Style Guide*, 3rd ed. (ACS/Oxford, 2006), ch. 9, 10, 15–17 | Grammar, punctuation, editorial style, figures, tables, chemical structures |
-| `tone-examples.md` | 3 published JACS papers | Annotated tone/rhetoric excerpts |
-| `document-structure.md` | Same 3 JACS papers | Observed section order and numbering conventions |
-| `citation-format.md` | `american-chemical-society.csl` + 2 of the JACS papers' reference lists | In-text and reference-list citation formatting, by source type |
-| `american-chemical-society.csl` | Zotero Style Repository, "ACS Guide 2026 revision" | The authoritative, machine-readable citation style `citation-format.md` is translated from |
-| `NEEDED.md` | — | What's been incorporated and what's still open |
-
-These are living documents. Known gaps are noted inline (see `NEEDED.md`);
-the reference-set is JACS-derived, so a different target ACS journal's own
-Instructions for Authors may need to be supplied for the document-structure
-guidance to fully apply.
-
 ## Using this skill
 
 Point Claude at this repository (or install it as a skill) and ask it to
