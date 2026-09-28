@@ -1,0 +1,16 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Python (scripts/ is for future executable helpers)
+__pycache__/
+*.pyc
+
+# Packaged skill artifacts (rebuildable from the source folder)
+*.skill
+*.zip
+
+# skill-creator eval workspace output (see skill-creator's own package_skill.py,
+# which excludes a root-level evals/ dir from the packaged .skill for the same reason)
+evals/
+*-workspace/
