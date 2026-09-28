@@ -105,7 +105,7 @@ rather than guessing.
    placement (no space, attached to the specific claim, not batched at
    sentence end), comma-separated multiples, en-dash ranges for 3+
    consecutive numbers, and the reference-list entry format (author
-   semicolon list, sentence-case title, italicized abbreviated journal
+   semicolon list, Title Case article title, italicized abbreviated journal
    name, bold year, italicized volume, en-dash page range).
 
 5. **When something isn't covered by the reference files**, don't
